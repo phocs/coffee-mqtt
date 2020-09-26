@@ -7,6 +7,10 @@ from coffee.mqtt import __version__
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+requirements = []
+test_requirements = ['pytest']
+test_setup_requires = ['pytest-runner']
+
 setuptools.setup(
     name='coffee-mqtt',
     version=__version__,
@@ -30,4 +34,7 @@ setuptools.setup(
         'Topic :: Mqtt'
     ],
     python_requires='>=3.6',
+    test_suite='tests',
+    setup_requires=test_setup_requires,
+    tests_require=test_requirements,
 )
