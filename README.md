@@ -1,5 +1,8 @@
 # coffee-mqtt
-Python MQTT framework.
+Paho MQTT Python Client framework.
 
 ## Credits
-`TopicPattern` inspired by RangerMauve's [mqtt-pattern](https://github.com/RangerMauve/mqtt-pattern).
+
+**Eclipse Paho MQTT Python Client** [paho.mqtt](https://github.com/RangerMauve/mqtt-pattern).
+
+`Pattern` inspired by RangerMauve's [mqtt-pattern](https://github.com/RangerMauve/mqtt-pattern).
