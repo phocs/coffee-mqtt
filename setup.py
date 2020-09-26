@@ -30,8 +30,8 @@ setuptools.setup(
         'Natural Language :: English',
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
-        'Topic :: Framework',
-        'Topic :: Mqtt'
+        'Topic :: Communications',
+        'Topic :: Internet',
     ],
     python_requires='>=3.6',
     test_suite='tests',
