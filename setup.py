@@ -7,7 +7,7 @@ from coffee.mqtt import __version__
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-requirements = []
+requirements=['paho-mqtt==1.5.0']
 test_requirements = ['pytest']
 test_setup_requires = ['pytest-runner']
 
@@ -23,6 +23,7 @@ setuptools.setup(
     packages=setuptools.find_packages('src'),
     package_dir={'': 'src'},
     include_package_data=True,
+    install_requires=requirements,
     license='MIT License Copyright (c) 2020 Alessio Volpe',
     keywords='coffee',
     classifiers=[
