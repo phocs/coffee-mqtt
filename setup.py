@@ -7,7 +7,7 @@ from coffee.mqtt import __version__
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-requirements = []
+requirements = ['paho-mqtt']
 test_requirements = ['pytest']
 test_setup_requires = ['pytest-runner']
 
